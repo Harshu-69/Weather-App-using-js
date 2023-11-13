@@ -28,17 +28,17 @@ async function CheckWeather(city) // It contains all the api data
 
 
     if (data.weather[0].main == "Clear") {
-        weatherImg.src = "Assets/weather-app-img/images/clear.png"
+        weatherImg.src = "Assets/weather-app-img/images/clear.webp"
     } else if (data.weather[0].main == "Clouds") {
-        weatherImg.src = "Assets/weather-app-img/images/clouds.png"
+        weatherImg.src = "Assets/weather-app-img/images/clouds.webp"
     } else if (data.weather[0].main == "Drizzel") {
-        weatherImg.src = "Assets/weather-app-img/images/drizzel.png"
+        weatherImg.src = "Assets/weather-app-img/images/drizzel.webp"
     } else if (data.weather[0].main == "Mist") {
-        weatherImg.src = "Assets/weather-app-img/images/mist.png"
+        weatherImg.src = "Assets/weather-app-img/images/mist.webp"
     } else if (data.weather[0].main == "Rain") {
-        weatherImg.src = "Assets/weather-app-img/images/rain.png"
+        weatherImg.src = "Assets/weather-app-img/images/rain.webp"
     } else if (data.weather[0].main == "Snow") {
-        weatherImg.src = "Assets/weather-app-img/images/snow.png"
+        weatherImg.src = "Assets/weather-app-img/images/snow.webp"
     }
 
     card2.style.display = "block";
