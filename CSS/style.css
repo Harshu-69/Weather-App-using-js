@@ -1,0 +1,194 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(/Assets/Fonts/Montserrat-Regular.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.666);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.container {
+    position: relative;
+    width: 450px;
+    /* position: fixed; */
+    height: 520px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+}
+
+.card1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    /* height: 25%; */
+    display: flex;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #2ebbce;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card2 {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 85%;
+    display: flex;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #2ebbce;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 30px;
+    display: none;
+}
+
+.ctop {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 95%;
+    height: 4.3vw;
+    margin: .4vw 0 0;
+    /* background-color: grey; */
+}
+
+.ctop input {
+    width: 70%;
+    height: 3vw;
+    border-radius: 20px;
+    border: none;
+    font-size: 1vw;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    background-image: url(/Assets/weather-app-img/images/search.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+
+/* 
+.search-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.weather-icon img {
+    width: 65%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.temp-city :nth-child(1) {
+    font-size: 4vw;
+}
+
+.temp-city :nth-child(2) {
+    font-size: 3vw;
+}
+
+.cbottom {
+    width: 100%;
+    height: 5vw;
+    /* background-color: #dadada; */
+    margin: 3vw 1.6vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    display: flex;
+}
+
+.lbtm {
+    /* background-color: red; */
+    /* height: 50%; */
+    display: flex;
+    /* width: 50%; */
+    gap: 10px;
+}
+
+.lbtm img {
+    margin-top: 5px;
+    width: 21.5%;
+    height: 100%;
+}
+
+.cbtm-text1 {
+    font-size: 1.4vw;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+.cbtm-text2 {
+    font-size: 1.4vw;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+.rbtm {
+    /* width: 50%; */
+    /* height: 50%; */
+    display: flex;
+    gap: 10px;
+}
+
+.rbtm img {
+    margin-top: 5px;
+    width: 20%;
+    height: 100%;
+}
+
+
+/* middle & bottom div  */
+
+
+/* 
+.mb {
+    display: none;
+} */
